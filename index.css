@@ -1,0 +1,255 @@
+
+body{
+    font-family:"Smythe";
+    margin: 10px;
+    padding: 0px;
+
+}
+
+.main-container{
+    border: 2px solid black;
+    width: 600px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.restaurant-banner{
+
+    
+    /* margin-top: -22px; */
+    /* border: 1px solid black; */
+    color: #FFFFFF;
+    /* width: 600px; */
+    /* object-fit:cover; */
+    /* padding-bottom: 60px; */
+    border: 0.1px solid black;
+    padding: 0px;
+    height: 140px;
+    background-image: url("./images/restaurant_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.restaurant-banner-text{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.restaurant-banner-text h1{
+    margin-bottom: 5px;
+}
+.restaurant-banner-text p{
+    margin-top: 0px;
+}
+
+
+.your-orders-text{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.items-container{
+    /* border: 1px solid blue; */
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.item-card{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 10px;
+}
+.item-image{
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+.item-details{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid gray; */
+    margin-left: 0px;
+    width: 400px;
+    justify-content: center;
+    
+
+}
+.item-details p{
+    margin: 0;
+}
+.item-details .item-price{
+    margin-top: 9px;
+}
+.item-details .item-name{
+    font-size: 20px;
+}
+.item-details .item-ingredients{
+    font-size: 15px;
+    color: gray;
+    font-weight: 100;
+    
+}
+.plus-image{
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    border-radius: 100%;
+    padding: 10px;
+    
+}
+
+/* checkOut Design */
+
+.checkout-div{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    text-align: center;
+
+}
+.ordered-items-div{
+
+    border-bottom: 2px solid black;
+    height: fit-content;
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 0px ;
+    padding-bottom: 10px;
+
+
+
+}
+.ordered-items-list{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+    height:fit-content;
+    background-color: #FFFFFF;
+}
+.ordered-items-list p{
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 24px;
+}
+.remove-btn{
+    border: none;
+    background: none;
+    color: gray;
+}
+.removable-item-div{
+    display: flex;
+}
+.removable-item-div button{
+    margin: auto;
+    margin-left: 20px;
+}
+
+.total-price-div{
+    display: flex;
+    width: 510px;
+    
+    justify-content: space-between;
+    padding: 3px 0px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid greenyellow; */
+
+    
+}
+.total-price-div p{
+    margin: 0px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+.complete-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #16DB99;
+    border: none;
+    color: #FFFFFF;
+    width: 510px;
+    padding: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+/* form div */
+
+.form-container{
+    padding: 30px;
+    text-align: center;
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 324px;
+    
+    border-radius: 3px;
+    box-shadow: 0px 0 40px rgba(0, 0, 0, 0.5);
+
+}
+.visible{
+    display: block;
+}
+.form-container img{
+    width: 15px;
+    margin: 0px;
+    position: absolute;
+    left: 350px;
+    top: 15px;
+}
+
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 14px;
+}
+.form-content input{
+    padding: 14px;
+    width: 275px;
+    height: 15px;
+}
+.form-content button{
+
+    width: 305px;
+    padding: 14px;
+    margin-top: 20px;
+    font-size: 19px;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+
+    
+}
+
+.thanks-text{
+    color: #065F46;
+    padding: 20px 75px;
+    background-color: #ECFDF5;
+    width: 310px;
+    margin-top:80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
